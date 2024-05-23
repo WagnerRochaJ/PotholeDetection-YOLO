@@ -1,5 +1,6 @@
 Detecção de objetos utilizando Opencv, atraves de um modelo YOLO com dataset customizado.
-
+<img src="resultados/pothole7.jpg" width=400 height=300>
+<br>
 Codigo de predição baseado em:
 
 https://docs.ultralytics.com/modes/predict/#key-features-of-predict-mode
@@ -28,3 +29,7 @@ para video(mp4):
 ```bash
 python detect-video.py --modelname=bestV2.pt --video=testVideos/video1.mp4
 ```
+<img src="resultados/maps2.png" width=400 height=300>
+<video width="640" height="360" controls>
+  <source src="testVideos/video1.mp4" type="video/mp4">
+</video>
