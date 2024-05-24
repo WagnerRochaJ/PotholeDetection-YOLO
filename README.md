@@ -44,8 +44,10 @@ comparação de duas imagens. Uma com 50% e outra com 30%
 
 detecção a partir de 50%
 <br>
+<img src="resultados/50percentdetect.jpg" width=400 height=300>
 <br>
 detecção a partir de 30%
 <br>
+<img src="resultados/YOLO30percent.jpg" width=400 height=300>
 
 
