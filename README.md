@@ -30,6 +30,7 @@ para video(mp4):
 ```bash
 python detect-video.py --modelname=bestV2.pt --video=testVideos/video1.mp4
 ```
+<img src="resultados/pothole4.jpg" width=400 height=300>
 <img src="resultados/maps2.png" width=400 height=300>
 
 caso queira alterar a quantidade de detecções, adicione "--threshold= 0.5"
@@ -41,5 +42,12 @@ python detect-imagem.py --modelname=bestV2.pt --imagedir=testImages --threshold=
 ```
 comparação de duas imagens. Uma com 50% e outra com 30%
 
+detecção a partir de 50%
+<br>
+<img src="resultados/YOLO50percent.jpg" width=400 height=300>
+<br>
+detecção a partir de 30%
+<br>
+<img src="resultados/YOLO30percent.jpg" width=400 height=300>
 
 
