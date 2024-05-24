@@ -48,6 +48,5 @@ detecção a partir de 50%
 <br>
 detecção a partir de 30%
 <br>
-<img src="resultados/YOLO30percent.jpg" width=400 height=300>
 
 
