@@ -29,7 +29,7 @@ para video(mp4):
 ```bash
 python detect-video.py --modelname=bestV2.pt --video=testVideos/video1.mp4
 ```
+<img src="resultados/video1YOLO.gif" width=500 height=300>
+
 <img src="resultados/maps2.png" width=400 height=300>
-<video width="640" height="360" controls>
-  <source src="testVideos/video1.mp4" type="video/mp4">
-</video>
+
