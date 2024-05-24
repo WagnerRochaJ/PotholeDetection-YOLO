@@ -30,7 +30,6 @@ para video(mp4):
 ```bash
 python detect-video.py --modelname=bestV2.pt --video=testVideos/video1.mp4
 ```
-<img src="resultados/pothole4.jpg" width=400 height=300>
 <img src="resultados/maps2.png" width=400 height=300>
 
 caso queira alterar a quantidade de detecções, adicione "--threshold= 0.5"
