@@ -1,5 +1,6 @@
 Detecção de objetos utilizando Opencv, atraves de um modelo YOLO com dataset customizado.
 <img src="resultados/pothole7.jpg" width=400 height=300>
+<img src="resultados/video1YOLO.gif" width=500 height=300>
 <br>
 Codigo de predição baseado em:
 
@@ -29,7 +30,17 @@ para video(mp4):
 ```bash
 python detect-video.py --modelname=bestV2.pt --video=testVideos/video1.mp4
 ```
-<img src="resultados/video1YOLO.gif" width=500 height=300>
-
+<img src="resultados/pothole4.jpg" width=400 height=300>
 <img src="resultados/maps2.png" width=400 height=300>
+
+caso queira alterar a quantidade de detecções, adicione "--threshold= 0.5"
+<br>
+exemplo para 40%>
+```
+python detect-imagem.py --modelname=bestV2.pt --imagedir=testImages --threshold= 0.4
+
+```
+comparação de duas imagens. Uma com 50% e outra com 30%
+
+
 
