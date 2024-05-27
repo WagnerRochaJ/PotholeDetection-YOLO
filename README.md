@@ -2,8 +2,9 @@ Detecção de objetos utilizando Opencv, atraves de um modelo YOLO com dataset c
 <img src="resultados/pothole7.jpg" width=400 height=300>
 <img src="resultados/video1YOLO.gif" width=500 height=300>
 <br>
-Codigo de predição baseado em:
 
+Codigo de predição baseado em:
+<br>
 https://docs.ultralytics.com/modes/predict/#key-features-of-predict-mode
 
 https://www.aranacorp.com/en/object-recognition-with-yolo-and-opencv/
