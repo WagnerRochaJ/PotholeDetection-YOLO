@@ -90,7 +90,7 @@ for img_path in images:
          cvzone.putTextRect(img, "{} {:.1f}%".format(name,float(confidence*100)), (max(0,xmin), max(35,ymin)), scale =0.8,thickness=1,colorT=(255,255,255),colorR=(0,0,0),font= cv2.FONT_HERSHEY_PLAIN,offset=5)
 
          #carrega alguns valores em uma lista
-         detections.append([name, (confidence*100), xmin, ymin, xmax, ymax])
+         detections.append([name, (confidence), xmin, ymin, xmax, ymax])
          
    cv2.imshow("Imagem", img)
       
