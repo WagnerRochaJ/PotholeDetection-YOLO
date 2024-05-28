@@ -37,7 +37,7 @@ CWD_PATH = os.getcwd()
 # juntar todas as imagens
 if IMG_DIR:
    PATH_TO_IMAGES = os.path.join(CWD_PATH,IMG_DIR)
-   images = glob.glob(PATH_TO_IMAGES + '/*.jpg') + glob.glob(PATH_TO_IMAGES + '/*.png') + glob.glob(PATH_TO_IMAGES + '/*.bmp')
+   images = glob.glob(PATH_TO_IMAGES + '/*.jpg') + glob.glob(PATH_TO_IMAGES + '/*.png') + glob.glob(PATH_TO_IMAGES + '/*.bmp') + glob.glob(PATH_TO_IMAGES + '/*.jpeg')
    if save_results:
       RESULTS_DIR = IMG_DIR + '_results'
 
